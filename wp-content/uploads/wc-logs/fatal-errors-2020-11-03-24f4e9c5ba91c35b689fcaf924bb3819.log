@@ -1,0 +1,2 @@
+2020-11-03T18:04:34+00:00 CRITICAL Out of memory (allocated 33554432) (tried to allocate 12288 bytes) in C:\xampp\htdocs\workup\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Notes\WC_Admin_Notes.php on line 50
+

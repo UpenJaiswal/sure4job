@@ -1,0 +1,10 @@
+2020-11-06T17:10:39+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents() on null in C:\xampp\htdocs\workup\wp-content\plugins\wp-job-board-wc-paid-listings\inc\class-wc-cart.php:52
+Stack trace:
+#0 C:\xampp\htdocs\workup\wp-content\plugins\wp-job-board-wc-paid-listings\inc\class-wc-cart.php(87): WP_Job_Board_Wc_Paid_Listings_Cart::check_cart_has_job_package()
+#1 C:\xampp\htdocs\workup\wp-includes\class-wp-hook.php(289): WP_Job_Board_Wc_Paid_Listings_Cart::guest_checkout('yes')
+#2 C:\xampp\htdocs\workup\wp-includes\plugin.php(206): WP_Hook->apply_filters('yes', Array)
+#3 C:\xampp\htdocs\workup\wp-includes\option.php(178): apply_filters('option_woocomme...', 'yes', 'woocommerce_ena...')
+#4 C:\xampp\htdocs\workup\wp-includes\option.php(563): get_option('woocommerce_ena...')
+#5 C:\xampp\htdocs\workup\wp-content\plugins\woocommerce\includes\class-wc-install.php(606): add_option('woocommerce_ena...', 'yes', '', 'no')
+#6 C:\xampp\htdocs\workup\wp-content\plugins\woocommerce\includes\class-wc-install.php(300): WC_Install::create in C:\xampp\htdocs\workup\wp-content\plugins\wp-job-board-wc-paid-listings\inc\class-wc-cart.php on line 52
+
